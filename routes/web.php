@@ -18,3 +18,9 @@ Route::get('/', function () {
 Route::get('abc', function () {
     return 'hlwd';
 });
+
+Route::get('user/{id}', function ($id) {
+    return 'User-'.$id;
+});
+
+Route::get('/test','QueuedController@test');

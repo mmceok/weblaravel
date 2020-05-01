@@ -178,6 +178,9 @@ return [
             * Package Service Providers...
             */
         Reliese\Coders\CodersServiceProvider::class,
+        VladimirYuldashev\LaravelQueueRabbitMQ\LaravelQueueRabbitMQServiceProvider::class,
+
+
     ],
 
     /*

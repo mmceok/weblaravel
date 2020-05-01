@@ -16,6 +16,24 @@ class TaskController extends Controller
     public function index()
     {
 
+        $date = "04/30/1973";
+        list($month, $day, $year) = preg_split ('[/.-]', $date);
+        echo "Month: $month; Day: $day; Year: $year<br />\n";
+
+        exit;
+
+        echo 0?:3;
+        echo '<br>';
+        echo 0??3;
+
+        exit;
+
+        $arr = ['a','b','c','d'];
+        $list = ['aa','bb','cc','dd'];
+        $res = array_combine($arr,$list);
+        var_dump($res);
+        exit;
+
         $card = DB::select("select * from app.user");
         var_dump($card[0]->id);
 
