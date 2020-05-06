@@ -6,8 +6,12 @@ namespace App\Http\Controllers;
 
 class IocController extends Controller
 {
+    //http://127.0.0.1:8383/api/ioc
     public function index()
     {
+
+        echo 'hello wd';
+        exit;
 
 
         $di = new Di();

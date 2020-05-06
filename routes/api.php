@@ -19,5 +19,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::resource('tasks', 'TaskController');
 Route::resource('ioc', 'IocController');
+Route::resource('test', 'TestController');
 
 Route::resource('tournament', 'tournament\TeamController');
