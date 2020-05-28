@@ -4,11 +4,38 @@
 namespace App\Http\Controllers;
 
 
+use Identicon\Identicon;
+use Illuminate\Http\Request;
+
 class IocController extends Controller
 {
     //http://127.0.0.1:8383/api/ioc
-    public function index()
+    public function index(Request $request)
     {
+
+        $res = $request->all();
+
+        $request->name = 'xyz';
+//        $request->nickName = 'aaaa';
+
+        echo $request->id;
+
+        echo $request->nickName;
+
+        echo $request->age;
+
+        dump($request);
+
+        exit;
+
+        echo $request->input('id');
+
+        echo 'ioc';
+
+        exit;
+
+        $identicon = new Identicon();
+
 
         echo 'hello wd';
         exit;

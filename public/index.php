@@ -1,10 +1,34 @@
 <?php
 
-//$list = $_SERVER;
+
+//spl_autoload_register(function($className){
+//    require $className.'.php';
+//});
 //
-//foreach($list as $k=>$v){
-//    echo $k.' '.$v.'<br>';
+//$m = new Test();
+//$m->show();
+
+// 使用匿名函数方式
+// spl_autoload_register(function( $className ){
+//        echo "first==><br>";
+//     require_once 'Test.php';
+// });
+//
+// // 需要注册的外部__autoload()实现
+//spl_autoload_register('CaseAutoLoad');
+//
+//function CaseAutoLoad( $className ){
+//        echo "second==><br>";
+//    require_once 'CaseClass.php';
 //}
+//
+////$m = new Test();
+////$m->show();
+////exit;
+//echo "--------<br>";
+//
+//$s = new CaseClass();
+//$s->show();
 //
 //exit;
 

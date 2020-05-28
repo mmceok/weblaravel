@@ -14,7 +14,8 @@
         "laravel/tinker": "^1.0",
         "php-amqplib/php-amqplib": "^2.11",
         "reliese/laravel": "^0.0.14",
-        "vladimir-yuldashev/laravel-queue-rabbitmq": "~7.1"
+        "vladimir-yuldashev/laravel-queue-rabbitmq": "~7.1",
+        "yzalis/identicon": "^2.0"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

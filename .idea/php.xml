@@ -111,6 +111,7 @@
       <path value="$PROJECT_DIR$/vendor/enqueue/amqp-tools" />
       <path value="$PROJECT_DIR$/vendor/enqueue/dsn" />
       <path value="$PROJECT_DIR$/vendor/vladimir-yuldashev/laravel-queue-rabbitmq" />
+      <path value="$PROJECT_DIR$/vendor/yzalis/identicon" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />

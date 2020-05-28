@@ -16,6 +16,8 @@ class TestController extends Controller
     //http://127.0.0.1:8383/api/test
     public function index()
     {
+        echo 'tst';
+        die;
 
         $con = new container();
         $con->register('redis',function (){
